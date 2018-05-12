@@ -15,7 +15,6 @@ Constraint PK_BOOKS PRIMARY KEY (BOOK_ID)
 );
 /
 
-
 --Drop table users if already existing
 BEGIN
     EXECUTE IMMEDIATE 'DROP TABLE USERS CASCADE CONSTRAINT PURGE';
